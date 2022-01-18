@@ -2,7 +2,7 @@ import avatar from '../assets/images/avatar.png'
 
 function App() {
   return (
-    <section className="flex justify-center items-center w-full min-h-screen bg-purple-900">
+    <section className="flex justify-center items-center w-full min-h-screen bg-gradient-to-br from-purple-900 to-fuchsia-800">
       <section className="bg-stone-100 shadow-sm shadow-black card">
         <img src={avatar} className="image-full" alt="Card image" />
         <article className="card-body">
@@ -12,7 +12,18 @@ function App() {
               🤝
             </span>
           </h2>
-          I'm frontend software engineer focused in React and it ecossystem
+          <h4>
+            I'm front-end software engineer focused in React and all ecossystem
+          </h4>
+          <h4>BSc Biomedical Informatics @ Universidade de São Paulo</h4>
+          <h4>Involved with Linux and open source community since 2004</h4>
+          <h4>
+            Working at{' '}
+            <a className="underline" href="https://dasa.com.br/">
+              Dasa
+            </a>
+          </h4>
+          <div className="divider" />
           <p>
             Age: 29{' '}
             <span aria-label="emoji" aria-roledescription="Sparkles">
@@ -40,6 +51,7 @@ function App() {
               href="https://sugary-store-387.notion.site/Resume-d06262eaf78f4180a2b24ec3bac4dc9b"
               target="_blank"
               rel="noreferrer"
+              className="underline"
             >
               check this out!
             </a>{' '}
