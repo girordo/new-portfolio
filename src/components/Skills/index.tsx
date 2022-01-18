@@ -11,7 +11,7 @@ const Skills = () => {
         </span>
       </h1>
       <section className="grid grid-cols-2 gap-10">
-        <section className="bg-stone-100 hover:shadow-lg transition-shadow duration-500 delay-100 card">
+        <section className="bg-stone-100 hover:shadow-lg transition-shadow duration-300 card">
           <article className="card-body">
             <h2 className="card-title">Languages</h2>
             <div className="grid grid-cols-2 gap-2">
@@ -23,7 +23,7 @@ const Skills = () => {
             </div>
           </article>
         </section>
-        <section className="bg-stone-100 hover:shadow-lg transition-shadow duration-500 delay-100 card">
+        <section className="bg-stone-100 hover:shadow-lg transition-shadow duration-300 card">
           <article className="card-body">
             <h2 className="card-title">Frameworks</h2>
             <div className="grid grid-cols-2 gap-2">
@@ -36,7 +36,7 @@ const Skills = () => {
             </div>
           </article>
         </section>
-        <section className="bg-stone-100 hover:shadow-lg transition-shadow duration-500 delay-100 card">
+        <section className="bg-stone-100 hover:shadow-lg transition-shadow duration-300 card">
           <article className="card-body">
             <h2 className="card-title">Databases</h2>
             <div className="grid grid-cols-2 gap-2">
@@ -47,7 +47,7 @@ const Skills = () => {
             </div>
           </article>
         </section>
-        <section className="bg-stone-100 hover:shadow-lg transition-shadow duration-500 delay-100 card">
+        <section className="bg-stone-100 hover:shadow-lg transition-shadow duration-300 card">
           <article className="card-body">
             <h2 className="card-title">CI/CD</h2>
             <div className="grid grid-cols-2 gap-2">
