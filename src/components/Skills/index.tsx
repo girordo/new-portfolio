@@ -41,7 +41,7 @@ const Skills = () => {
 
   return (
     <section
-      className="flex flex-col justify-center items-center w-full min-h-screen"
+      className="container flex flex-col justify-center items-center mx-auto w-full min-h-screen"
       id="skills"
     >
       <h1 className="mb-10 text-5xl font-semibold">
@@ -50,7 +50,7 @@ const Skills = () => {
           🧰
         </span>
       </h1>
-      <section className="grid grid-cols-2 gap-10">
+      <section className="grid grid-cols-1 gap-10 md:grid-cols-2">
         {data.map(({ id, title, techs }) => (
           <section
             key={id}
@@ -58,7 +58,7 @@ const Skills = () => {
           >
             <article className="card-body">
               <h2 className="text-white card-title">{title}</h2>
-              <div className="grid grid-cols-2 gap-1">
+              <div className="grid grid-cols-1 gap-1 md:grid-cols-2">
                 {techs.map((item, index) => (
                   <div
                     key={index}
