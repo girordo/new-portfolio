@@ -2,7 +2,7 @@ import avatar from 'assets/images/avatar.png'
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-center items-center w-full min-h-screen text-gray-800 ">
+    <section className="flex flex-col justify-center items-center w-full min-h-screen ">
       <section className="mb-20 font-medium bg-stone-100 bg-gradient-to-br from-purple-900 to-fuchsia-800 shadow-md text-success card">
         <img src={avatar} className="image-full" alt="Card image" />
         <article className="card-body">
