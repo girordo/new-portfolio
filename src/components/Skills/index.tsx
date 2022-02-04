@@ -41,7 +41,7 @@ const Skills = () => {
 
   return (
     <section
-      className="container flex flex-col justify-center items-center mx-auto w-full min-h-screen"
+      className="container flex flex-col justify-center items-center mx-auto w-full min-h-screen text-white"
       id="skills"
     >
       <h1 className="mb-10 text-5xl font-semibold">
@@ -54,7 +54,7 @@ const Skills = () => {
         {data.map(({ id, title, techs }) => (
           <section
             key={id}
-            className="bg-gradient-to-br from-purple-900 to-fuchsia-800 hover:shadow-lg transition-shadow duration-300 card"
+            className="bg-gradient-to-br from-purple-900 to-fuchsia-800 shadow-md hover:shadow-lg transition-shadow duration-300 card"
           >
             <article className="card-body">
               <h2 className="text-white card-title">{title}</h2>
@@ -62,7 +62,7 @@ const Skills = () => {
                 {techs.map((item, index) => (
                   <div
                     key={index}
-                    className="font-semibold shadow-sm badge badge-lg badge-success"
+                    className="font-semibold shadow-md badge badge-lg badge-success"
                   >
                     {item}
                   </div>
