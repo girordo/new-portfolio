@@ -43,6 +43,7 @@ const Skills = () => {
     <section
       className="container flex flex-col justify-center items-center mx-auto w-full min-h-screen text-white"
       id="skills"
+      data-testid="skills-component"
     >
       <h1 className="mb-10 text-5xl font-semibold">
         Skills{' '}
