@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 const Skills = () => {
   const data = [
     {
@@ -40,40 +42,46 @@ const Skills = () => {
   ]
 
   return (
-    <section
-      className="container flex flex-col justify-center items-center mx-auto w-full min-h-screen text-white"
-      id="skills"
-      data-testid="skills-component"
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
     >
-      <h1 className="mb-10 text-5xl font-semibold">
-        Skills{' '}
-        <span aria-label="emoji" aria-roledescription="Toolbox">
-          🧰
-        </span>
-      </h1>
-      <section className="grid grid-cols-1 gap-10 md:grid-cols-2">
-        {data.map(({ id, title, techs }) => (
-          <section
-            key={id}
-            className="bg-gradient-to-br from-purple-900 to-fuchsia-800 shadow-md hover:shadow-lg transition-shadow duration-300 card"
-          >
-            <article className="card-body">
-              <h2 className="text-white card-title">{title}</h2>
-              <div className="grid grid-cols-1 gap-1 md:grid-cols-2">
-                {techs.map((item, index) => (
-                  <div
-                    key={index}
-                    className="font-semibold shadow-md badge badge-lg badge-success"
-                  >
-                    {item}
-                  </div>
-                ))}
-              </div>
-            </article>
-          </section>
-        ))}
+      <section
+        className="container flex flex-col justify-center items-center mx-auto w-full min-h-screen text-white"
+        id="skills"
+        data-testid="skills-component"
+      >
+        <h1 className="mb-10 text-5xl font-semibold">
+          Skills{' '}
+          <span aria-label="emoji" aria-roledescription="Toolbox">
+            🧰
+          </span>
+        </h1>
+        <section className="grid grid-cols-1 gap-10 md:grid-cols-2">
+          {data.map(({ id, title, techs }) => (
+            <section
+              key={id}
+              className="bg-gradient-to-br from-purple-900 to-fuchsia-800 shadow-md hover:shadow-lg transition-shadow duration-300 card"
+            >
+              <article className="card-body">
+                <h2 className="text-white card-title">{title}</h2>
+                <div className="grid grid-cols-1 gap-1 md:grid-cols-2">
+                  {techs.map((item, index) => (
+                    <div
+                      key={index}
+                      className="font-semibold shadow-md badge badge-lg badge-success"
+                    >
+                      {item}
+                    </div>
+                  ))}
+                </div>
+              </article>
+            </section>
+          ))}
+        </section>
       </section>
-    </section>
+    </motion.div>
   )
 }
 
