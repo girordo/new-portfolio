@@ -68,12 +68,12 @@ const Skills = () => {
                 <h2 className="text-white card-title">{title}</h2>
                 <div className="grid grid-cols-1 gap-1 md:grid-cols-2">
                   {techs.map((item, index) => (
-                    <div
+                    <span
                       key={index}
                       className="font-semibold shadow-md badge badge-lg badge-success"
                     >
                       {item}
-                    </div>
+                    </span>
                   ))}
                 </div>
               </article>

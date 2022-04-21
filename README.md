@@ -19,16 +19,10 @@ This project uses many tools like:
 
 ### Install
 
-Create the project.
-
-```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
-```
-
 Access the project directory.
 
 ```bash
-cd my-app
+cd new-portfolio
 ```
 
 Install dependencies.
