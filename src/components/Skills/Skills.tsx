@@ -22,7 +22,7 @@ const Skills = () => {
     {
       id: 3,
       title: 'Frameworks',
-      techs: ['React', 'React Native', 'Expo', 'Next.JS', 'Node', 'Shiny'],
+      techs: ['React', 'React Native', 'Expo', 'Next.js', 'NestJS', 'Express'],
     },
     {
       id: 4,
