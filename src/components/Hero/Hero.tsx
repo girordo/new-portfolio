@@ -1,4 +1,3 @@
-import avatar from '../../assets/images/avatar.png'
 import { motion } from 'framer-motion'
 
 const Hero = () => {
@@ -15,7 +14,6 @@ const Hero = () => {
         }}
       >
         <section className="mb-20 font-medium bg-stone-100 bg-gradient-to-br from-purple-900 to-fuchsia-800 shadow-md text-success card">
-          <img src={avatar} className="image-full" alt="Card image" />
           <article className="card-body">
             <h2 className="text-2xl font-semibold card-title">
               Hi I'm Tarcísio{' '}
