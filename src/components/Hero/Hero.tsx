@@ -25,11 +25,10 @@ const Hero = () => {
               I'm front-end software engineer focused in React and all ecosystem
             </h4>
             <h4>BSc Biomedical Informatics @ Universidade de São Paulo</h4>
-            <h4>Involved with Linux and open source community since 2004</h4>
             <h4>
               Working at{' '}
-              <a className="underline" href="https://dasa.com.br/">
-                Dasa
+              <a className="underline" href="https://spocket.co/">
+                Spocket
               </a>
             </h4>
             <div className="divider" />
