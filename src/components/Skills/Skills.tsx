@@ -5,7 +5,7 @@ const Skills = () => {
     {
       id: 1,
       title: 'Languages',
-      techs: ['Javascript', 'Typescript', 'R', 'C'],
+      techs: ['Javascript', 'Typescript', 'Elixir', 'R'],
     },
     {
       id: 2,
@@ -13,16 +13,16 @@ const Skills = () => {
       techs: [
         'HTML5',
         'CSS3',
-        'UX',
-        'Unit Testing',
-        'Accessibility',
+        'React',
+        'Next.js',
         'Semantics',
+        'Accessibility',
       ],
     },
     {
       id: 3,
-      title: 'Frameworks',
-      techs: ['React', 'React Native', 'Expo', 'Next.js', 'NestJS', 'Express'],
+      title: 'Back-end',
+      techs: ['NestJS', 'Express', 'Phoenix', 'GraphQL', 'JWT', 'Swagger'],
     },
     {
       id: 4,
@@ -32,12 +32,12 @@ const Skills = () => {
     {
       id: 5,
       title: 'CI/CD',
-      techs: ['Jenkins', 'Github Actions', 'AWS', 'GCP'],
+      techs: ['Jenkins', 'CircleCI', 'GitLab', 'GitHub Actions'],
     },
     {
       id: 6,
       title: 'Others',
-      techs: ['Linux', 'Docker', 'Git', 'Github', 'Jira', 'Scrum'],
+      techs: ['Linux', 'Docker', 'Git', 'Scrum', 'AWS', 'GCP'],
     },
   ]
 
