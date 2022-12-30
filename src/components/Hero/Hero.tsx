@@ -13,18 +13,28 @@ const Hero = () => {
           duration: 0.8,
         }}
       >
-        <section className="mb-20 font-medium bg-stone-100 bg-gradient-to-br from-purple-900 to-fuchsia-800 shadow-md text-success card">
+        <section className="mx-auto mb-20 font-medium bg-stone-100 bg-gradient-to-br from-purple-900 to-fuchsia-800 shadow-md text-success card">
           <article className="card-body">
             <h2 className="text-2xl font-semibold card-title">
-              Hi I'm Tarcísio{' '}
+              Hi I&apos;m Tarcísio{' '}
               <span aria-label="emoji" aria-roledescription="Handshaking">
                 🤝
               </span>
+              <div className="divider" />
             </h2>
-            <h4>
-              I'm front-end software engineer focused in React and all ecosystem
-            </h4>
-            <h4>BSc Biomedical Informatics @ Universidade de São Paulo</h4>
+            <h3>
+              I&apos;m a frontend engineer with experience across several types
+              of business.
+            </h3>
+            <h3>
+              I hold a BSc in Biomedical Informatics at Universidade de São
+              Paulo
+            </h3>
+            <h3>
+              I&apos;m a constant learner, right now learning Elixir and Phoenix
+              for curiosity in functional programming.
+            </h3>
+            <h3>I am a communicative and empathetic person</h3>
             <h4>
               Working at{' '}
               <a className="underline" href="https://spocket.co/">
@@ -33,7 +43,7 @@ const Hero = () => {
             </h4>
             <div className="divider" />
             <p>
-              Age: 29{' '}
+              Age: 30{' '}
               <span aria-label="emoji" aria-roledescription="Sparkles">
                 ✨
               </span>
