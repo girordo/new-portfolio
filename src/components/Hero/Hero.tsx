@@ -56,15 +56,6 @@ const Hero = () => {
               </span>
             </p>
             <p>
-              Location: Ribeirão Preto, SP{' '}
-              <span
-                aria-label="world"
-                aria-roledescription="Globe showing Americas"
-              >
-                🌎
-              </span>
-            </p>
-            <p>
               Resume:{' '}
               <a
                 href="https://sugary-store-387.notion.site/Resume-d06262eaf78f4180a2b24ec3bac4dc9b"
