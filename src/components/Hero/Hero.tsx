@@ -23,18 +23,20 @@ const Hero = () => {
               <div className="divider" />
             </h2>
             <h3>
-              I&apos;m a frontend engineer with experience across several types
-              of business.
+              Software engineer, empathic, communicative, open sourcerer since
+              2004, and constant learner. I am focused on the frontend using
+              React and its ecosystem, with experience across several types of
+              business.
             </h3>
             <h3>
-              I hold a BSc in Biomedical Informatics at Universidade de São
-              Paulo
+              Experienced in unit testing, React rewriting and refactoring apps
+              and frontend performance.
             </h3>
             <h3>
-              I&apos;m a constant learner, right now learning Elixir and Phoenix
-              for curiosity in functional programming.
+              Working on backends for fun, I appreciate working with NestJS,
+              Fastify, and Phoenix.
             </h3>
-            <h3>I am a communicative and empathetic person</h3>
+            <h3>Learning Rust for educational and curiosity purposes.</h3>
             <h4>
               Working at{' '}
               <a className="underline" href="https://spocket.co/">
