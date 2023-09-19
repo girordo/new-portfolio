@@ -60,7 +60,7 @@ const Hero = () => {
             <p>
               Resume:{' '}
               <a
-                href="https://sugary-store-387.notion.site/Resume-d06262eaf78f4180a2b24ec3bac4dc9b"
+                href="https://raw.githubusercontent.com/girordo/data-driven-cv/241320055ce70ab86958dba767851d1cd940bda8/resumes/data-driven-resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="underline"
