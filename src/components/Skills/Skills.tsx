@@ -1,3 +1,5 @@
+//TODO not using
+
 import { motion } from 'framer-motion'
 
 const Skills = () => {
@@ -5,7 +7,7 @@ const Skills = () => {
     {
       id: 1,
       title: 'Languages',
-      techs: ['Javascript', 'Typescript', 'Elixir', 'R'],
+      techs: ['Javascript', 'Typescript', 'Elixir', 'R', 'Rust', 'Java'],
     },
     {
       id: 2,
@@ -22,12 +24,12 @@ const Skills = () => {
     {
       id: 3,
       title: 'Back-end',
-      techs: ['NestJS', 'Express', 'Phoenix', 'GraphQL', 'JWT', 'Swagger'],
+      techs: ['NestJS', 'Express', 'Phoenix', 'Fastify', 'Actix-web', 'Axum'],
     },
     {
       id: 4,
       title: 'Databases',
-      techs: ['PostgreSQL', 'MySQL', 'MongoDB', 'Firebase'],
+      techs: ['PostgreSQL', 'SQLite', 'MongoDB', 'Firebase'],
     },
     {
       id: 5,

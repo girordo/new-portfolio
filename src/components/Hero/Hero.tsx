@@ -2,10 +2,7 @@ import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
-    <section
-      className="flex flex-col justify-center items-center w-full min-h-screen"
-      data-testid="hero-component"
-    >
+    <section data-testid="hero-component">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -13,7 +10,7 @@ const Hero = () => {
           duration: 0.8,
         }}
       >
-        <section className="mx-auto mb-20 font-medium bg-stone-100 bg-gradient-to-br from-purple-900 to-fuchsia-800 shadow-md text-success card">
+        <section className="mx-auto mb-20 w-96 font-medium bg-transparent bg-gradient-to-br shadow-md backdrop-blur-3xl md:w-full card">
           <article className="card-body">
             <h2 className="text-2xl font-semibold card-title">
               Hi I&apos;m Tarcísio{' '}
@@ -22,30 +19,24 @@ const Hero = () => {
               </span>
               <div className="divider" />
             </h2>
-            <h3>
+            <p className="text-ellipsis">
               Software engineer, empathic, communicative, open sourcerer since
-              2004, and constant learner. I am focused on the frontend using
+              2004, and constant learner. I&apos;m working on the frontend using
               React and its ecosystem, with experience across several types of
-              business.
-            </h3>
-            <h3>
-              Experienced in unit testing, React rewriting and refactoring apps
-              and frontend performance.
-            </h3>
-            <h3>
-              Working on backends for fun, I appreciate working with NestJS,
-              Fastify, and Phoenix.
-            </h3>
-            <h3>Learning Rust for educational and curiosity purposes.</h3>
+              business. I hold a BSc in Biomedical Informatics at Universidade
+              de São Paulo. Working on backends for fun, I appreciate working
+              with NestJS, Fastify, and Phoenix, Django. Using Rust, Elixir,
+              Python and R as a side languages for my pet projects.
+            </p>
             <h4>
               Working at{' '}
-              <a className="underline" href="https://spocket.co/">
-                Spocket
+              <a className="underline" href="https://www.bosch.com.br/">
+                Bosch
               </a>
             </h4>
             <div className="divider" />
             <p>
-              Age: 30{' '}
+              Age: 31{' '}
               <span aria-label="emoji" aria-roledescription="Sparkles">
                 ✨
               </span>
@@ -60,7 +51,7 @@ const Hero = () => {
             <p>
               Resume:{' '}
               <a
-                href="https://raw.githubusercontent.com/girordo/data-driven-cv/241320055ce70ab86958dba767851d1cd940bda8/resumes/data-driven-resume.pdf"
+                href="https://github.com/girordo/data-driven-cv/blob/main/resumes/Tarcisio-Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="underline"
@@ -74,11 +65,6 @@ const Hero = () => {
           </article>
         </section>
       </motion.div>
-      <a href="#skills" className="text-6xl animate-bounce">
-        <span aria-label="emoji" aria-roledescription="Backhand pointing down">
-          👇
-        </span>
-      </a>
     </section>
   )
 }
