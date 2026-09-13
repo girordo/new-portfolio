@@ -17,16 +17,29 @@ const Hero = () => {
               <span aria-label="emoji" aria-roledescription="Handshaking">
                 🤝
               </span>
-              <div className="divider" />
             </h2>
+            <div className="divider" />
             <p className="text-ellipsis">
-              Software engineer, empathic, communicative, open sourcerer since
-              2004, and constant learner. I&apos;m working on the frontend using
-              React and its ecosystem, with experience across several types of
-              business. I hold a BSc in Biomedical Informatics at Universidade
-              de São Paulo. Working on backends for fun, I appreciate working
-              with NestJS, Fastify, and Phoenix, Django. Using Rust, Elixir,
-              Python and R as a side languages for my pet projects.
+              Software engineer, empathetic, communicative, open-source
+              enthusiast since 2004, and lifelong learner. Focused on software
+              architecture and fullstack development within the React, Node.js
+              based frameworks(Express, Fastify, Nestjs) and
+              JavaScript/TypeScript ecosystem. Holds a BSc in Biomedical
+              Informatics from Universidade de São Paulo. Experienced in
+              maintaining codebases ranging from monoliths to microfrontends
+              implementing design systems with styled-components, TailwindCSS,
+              and Stitches. Contributing aside in backend using Java (Spring)
+              and Python (FastAPI and Django), developing new features and
+              refactoring legacy code. Experiences involving microsservices, API
+              gateway and virtualization. Worked extensively with state
+              management solutions like Context API, Redux, and Redux Toolkit,
+              along with unit testing and refactoring legacy components into
+              modern, reusable ones. Had worked with AWS like EC2, S3, Amplify,
+              Cloudfront. Currently working with GCP with Pub/Sub, GCS and Cloud
+              Run. Hands-on experience with DevOps using Docker, CI/CD pipelines
+              with GitHub Actions and CircleCI, configuration management with
+              Ansible, cloud services with AWS, containers with LXC, and
+              virtualization with Proxmox.
             </p>
             <h4>
               Working at{' '}

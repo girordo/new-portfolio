@@ -1,5 +1,4 @@
-'use client'
-import { cn } from '../../../utils/cn'
+import { cn } from '../../utils/cn'
 import { useEffect, useRef, useState } from 'react'
 import { createNoise3D } from 'simplex-noise'
 
@@ -53,11 +52,6 @@ export const WavyBackground = ({
     h = ctx.canvas.height = window.innerHeight
     ctx.filter = `blur(${blur}px)`
     nt = 0
-    window.onresize = function () {
-      w = ctx.canvas.width = window.innerWidth
-      h = ctx.canvas.height = window.innerHeight
-      ctx.filter = `blur(${blur}px)`
-    }
     render()
   }
 
@@ -94,8 +88,17 @@ export const WavyBackground = ({
 
   useEffect(() => {
     init()
+    const handleResize = () => {
+      if (ctx) {
+        w = ctx.canvas.width = window.innerWidth
+        h = ctx.canvas.height = window.innerHeight
+        ctx.filter = `blur(${blur}px)`
+      }
+    }
+    window.addEventListener('resize', handleResize)
     return () => {
       cancelAnimationFrame(animationId)
+      window.removeEventListener('resize', handleResize)
     }
   }, [])
 
