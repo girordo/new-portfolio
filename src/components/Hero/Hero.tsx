@@ -43,13 +43,18 @@ const Hero = () => {
             </p>
             <h4>
               Working at{' '}
-              <a className="underline" href="https://www.bosch.com.br/">
-                Bosch
+              <a
+                className="underline"
+                href="https://www.eldorado.org.br/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instituto Eldorado
               </a>
             </h4>
             <div className="divider" />
             <p>
-              Age: 31{' '}
+              Age: 33{' '}
               <span aria-label="emoji" aria-roledescription="Sparkles">
                 ✨
               </span>
