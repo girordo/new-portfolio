@@ -1,10 +1,11 @@
-export interface ShelfItem {
+export type ShelfItem = {
   title: string
   author: string
   category:
     | 'AI & Machine Learning'
     | 'Software Architecture'
     | 'Software Design & Craft'
+    | 'Hardware & Embedded Systems'
   status: 'reading' | 'completed'
   period?: string
   takeaway?: string
@@ -46,5 +47,14 @@ export const shelfItems: ShelfItem[] = [
     period: 'Read this year',
     takeaway:
       'Pragmatic guide on when and how to tidy code before changing behavior, managing software economics, and separating structural changes from behavioral changes.',
+  },
+  {
+    title: 'The Manga Guide for Microprocessors',
+    author: 'Michio Shibuya & Takashi Tonagi',
+    category: 'Hardware & Embedded Systems',
+    status: 'completed',
+    period: 'Read this year',
+    takeaway:
+      'Engaging introduction to microprocessor architecture, assembly language, and embedded systems through a manga-style narrative.',
   },
 ]
